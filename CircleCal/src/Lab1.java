@@ -52,10 +52,12 @@ public class Lab1 {
         List<Integer> myList = createArrayList();
         
         Integer[] Utga = {3, 7, 1, 5, 3, 7};
-        
+
         addElementsToList(myList, Utga);
+        Map<String, Integer> oddEvenCount = calculateOddEven(myList);
 
         System.out.println("Эхний жагсаалт: " + myList);
+        System.out.println("Жагсаалтын нийлбэр: " + calculateSum(myList));
 
         removeDuplicates(myList);
         System.out.println("Давхардал арилгасан жагсаалт: " + myList);
@@ -66,9 +68,9 @@ public class Lab1 {
         System.out.println("Жагсаалт 5 агуулсан эсэх: " + containsElement(myList, 5));
         System.out.println("Жагсаалт 10 агуулсан эсэх: " + containsElement(myList, 10));
 
-        System.out.println("Жагсаалтын нийлбэр: " + calculateSum(myList));
+        
 
-        Map<String, Integer> oddEvenCount = calculateOddEven(myList);
+        
         System.out.println("Нийт сонгдгой элемент: " + oddEvenCount.get("odd"));
         System.out.println("Count of even элемент: " + oddEvenCount.get("even"));
     }
