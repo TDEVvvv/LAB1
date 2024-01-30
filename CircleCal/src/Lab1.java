@@ -1,5 +1,5 @@
 import java.util.*;
-//test
+//18:00
 public class Lab1 {
 
     public static List<Integer> createArrayList() {
