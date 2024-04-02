@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module bagiinajil2 {
-}
